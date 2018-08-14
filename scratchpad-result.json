@@ -1,0 +1,461 @@
+https://www.khanacademy.org/api/internal/show_scratchpad?scratchpad_id=4555079742947328&casing=camel&topic_slug=computer-programming&lang=en
+{
+  "scratchpad": {
+    "contentKindCode": "p",
+    "newUrlPath": "/computer-programming/new/pjs",
+    "key": "ag5zfmtoYW4tYWNhZGVteXIXCxIKU2NyYXRjaHBhZBiAgIKwotqLCAw",
+    "relativeUrl": "/computer-programming/triangle-grid/4555079742947328",
+    "originScratchpadId": null,
+    "forkedFromTopic": "computer-programming",
+    "projectEval": null,
+    "height": 400,
+    "date": "2018-02-23T15:15:37Z",
+    "originSimilarity": 0.0,
+    "id": 4555079742947328,
+    "definitelyNotSpam": false,
+    "editSlug": "edit/p/triangle-grid",
+    "category": null,
+    "originRevisionId": null,
+    "title": "Triangle Grid",
+    "translatedProjectEval": null,
+    "sendToPeers": false,
+    "conceptTags": [],
+    "slug": "triangle-grid",
+    "isChallenge": false,
+    "width": 400,
+    "descriptionHtml": "",
+    "projectEvalTips": null,
+    "youtubeId": null,
+    "docsUrlPath": "/computer-programming/pjs-documentation",
+    "translatedTests": "",
+    "contentKind": "Scratchpad",
+    "type": "scratchpad",
+    "revision": {
+      "tests": null,
+      "code": "var space = 40;\nvar yFactor = sqrt(2) / 2;\nvar yHeight = yFactor * space;\nvar xDim = 9;\nvar yDim = round(xDim / yFactor);\n\ntranslate(space / 2, space / 2);\nstrokeWeight(6);\n\nfor (var x = 0; x < xDim; x ++) {\n    for (var y = 0; y < yDim; y ++) {\n        point((x + y % 2 / 2) * space, y * yHeight);\n    }\n}\n",
+      "created": "2018-02-23T15:15:37Z",
+      "folds": [],
+      "translatedMp3Url": null,
+      "hasAudio": false,
+      "mp3Url": null,
+      "editorType": "ace_pjs",
+      "playback": "",
+      "youtubeId": null,
+      "configVersion": 4,
+      "id": 5707702298738688
+    },
+    "tests": "",
+    "imagePath": "/computer-programming/triangle-grid/4555079742947328/5707702298738688.png",
+    "nodeType": "scratchpad",
+    "description": "",
+    "isProject": false,
+    "tags": [],
+    "translatedDescription": "",
+    "byChild": false,
+    "difficulty": null,
+    "originIsProject": false,
+    "sponsored": false,
+    "hideFromHotlist": false,
+    "canvasOnly": false,
+    "nodeSlug": "p/triangle-grid",
+    "spinoffCount": 0,
+    "kind": "Scratchpad",
+    "termMap": {
+      "new": "New Program",
+      "guidelines": "Program Guidelines",
+      "restart": "Restart"
+    },
+    "translatedDescriptionHtml": "",
+    "globalId": "p4555079742947328",
+    "created": "2018-02-23T15:04:14Z",
+    "url": "https://www.khanacademy.org/computer-programming/triangle-grid/4555079742947328",
+    "imageUrl": "https://www.khanacademy.org/computer-programming/triangle-grid/4555079742947328/5707702298738688.png",
+    "isPublished": false,
+    "sumVotesIncremented": 1,
+    "defaultUrlPath": null,
+    "flags": [],
+    "frozenDescriptionHtml": "",
+    "isProjectOrFork": false,
+    "translatedProjectEvalTips": null,
+    "userAuthoredContentType": "pjs",
+    "kaid": "kaid_1183476479201251928390727",
+    "translatedTitle": "Triangle Grid"
+  },
+  "embedded": false,
+  "creatorProfile": {
+    "isSelf": false,
+    "username": "douira",
+    "isParentOfLoggedInUser": false,
+    "isChildAccount": false,
+    "hasChangedAvatar": true,
+    "soundOn": false,
+    "canModifyCoaches": true,
+    "affiliation": null,
+    "hasStudents": false,
+    "publicBadges": [{
+      "absoluteUrl": "https://www.khanacademy.org/badges/copernicus",
+      "isRetired": false,
+      "isOwned": false,
+      "description": "Copernicus",
+      "safeExtendedDescription": "Achieve mastery in 200 unique skills",
+      "badgeCategory": 3,
+      "icons": {
+        "compact": "https://cdn.kastatic.org/images/badges/sun/copernicus-60x60.png",
+        "small": "https://cdn.kastatic.org/images/badges/sun/copernicus-40x40.png",
+        "large": "https://cdn.kastatic.org/images/badges/sun/copernicus-512x512.png",
+        "email": "https://cdn.kastatic.org/images/badges/sun/copernicus-70x70.png"
+      },
+      "translatedDescription": "Copernicus",
+      "relativeUrl": "/badges/copernicus",
+      "points": 80000,
+      "translatedSafeExtendedDescription": "Achieve mastery in 200 unique skills",
+      "iconSrc": "https://cdn.kastatic.org/images/badges/sun/copernicus-40x40.png",
+      "hideContext": false,
+      "slug": "copernicus",
+      "name": "copernicusmasterybadge"
+    }, {
+      "absoluteUrl": "https://www.khanacademy.org/badges/1000-kelvin",
+      "isRetired": false,
+      "isOwned": false,
+      "description": "1000 Kelvin",
+      "safeExtendedDescription": "Have a red-hot program at the top of the Community Programs list",
+      "badgeCategory": 1,
+      "icons": {
+        "compact": "https://cdn.kastatic.org/images/badges/moon/1000-kelvin-60x60.png",
+        "small": "https://cdn.kastatic.org/images/badges/moon/1000-kelvin-40x40.png",
+        "large": "https://cdn.kastatic.org/images/badges/moon/1000-kelvin-512x512.png",
+        "email": "https://cdn.kastatic.org/images/badges/moon/1000-kelvin-70x70.png"
+      },
+      "translatedDescription": "1000 Kelvin",
+      "relativeUrl": "/badges/1000-kelvin",
+      "points": 1000,
+      "translatedSafeExtendedDescription": "Have a red-hot program at the top of the Community Programs list",
+      "iconSrc": "https://cdn.kastatic.org/images/badges/moon/1000-kelvin-40x40.png",
+      "hideContext": false,
+      "slug": "1000-kelvin",
+      "name": "kelvinbadge"
+    }, {
+      "absoluteUrl": "https://www.khanacademy.org/badges/bristlecone",
+      "isRetired": false,
+      "isOwned": false,
+      "description": "Bristlecone",
+      "safeExtendedDescription": "Remain a member of Khan Academy for 4 years",
+      "badgeCategory": 2,
+      "icons": {
+        "compact": "https://cdn.kastatic.org/images/badges/earth/sequoia-60x60.png",
+        "small": "https://cdn.kastatic.org/images/badges/earth/sequoia-40x40.png",
+        "large": "https://cdn.kastatic.org/images/badges/earth/sequoia-512x512.png",
+        "email": "https://cdn.kastatic.org/images/badges/earth/sequoia-70x70.png"
+      },
+      "translatedDescription": "Bristlecone",
+      "relativeUrl": "/badges/bristlecone",
+      "points": 0,
+      "translatedSafeExtendedDescription": "Remain a member of Khan Academy for 4 years",
+      "iconSrc": "https://cdn.kastatic.org/images/badges/earth/sequoia-40x40.png",
+      "hideContext": false,
+      "slug": "bristlecone",
+      "name": "yearfourbadge"
+    }, {
+      "absoluteUrl": "https://www.khanacademy.org/badges/2014-patron",
+      "isRetired": true,
+      "isOwned": false,
+      "description": "2014 Patron",
+      "safeExtendedDescription": "Support Khan Academy with a donation in 2014",
+      "badgeCategory": 2,
+      "icons": {
+        "compact": "https://cdn.kastatic.org/images/badges/earth/patron-2014-60x60.png",
+        "small": "https://cdn.kastatic.org/images/badges/earth/patron-2014-40x40.png",
+        "large": "https://cdn.kastatic.org/images/badges/earth/patron-2014-512x512.png",
+        "email": "https://cdn.kastatic.org/images/badges/earth/patron-2014-70x70.png"
+      },
+      "translatedDescription": "2014 Patron",
+      "relativeUrl": "/badges/2014-patron",
+      "points": 0,
+      "translatedSafeExtendedDescription": "Support Khan Academy with a donation in 2014",
+      "iconSrc": "https://cdn.kastatic.org/images/badges/earth/patron-2014-40x40.png",
+      "hideContext": false,
+      "slug": "2014-patron",
+      "name": "patron2014badge"
+    }, {
+      "absoluteUrl": "https://www.khanacademy.org/badges/great-inspiration",
+      "isRetired": false,
+      "isOwned": false,
+      "description": "Great Inspiration",
+      "safeExtendedDescription": "Other users created 25 programs based on one of yours",
+      "badgeCategory": 2,
+      "icons": {
+        "compact": "https://cdn.kastatic.org/images/badges/earth/great-inspiration-60x60.png",
+        "small": "https://cdn.kastatic.org/images/badges/earth/great-inspiration-40x40.png",
+        "large": "https://cdn.kastatic.org/images/badges/earth/great-inspiration-512x512.png",
+        "email": "https://cdn.kastatic.org/images/badges/earth/great-inspiration-70x70.png"
+      },
+      "translatedDescription": "Great Inspiration",
+      "relativeUrl": "/badges/great-inspiration",
+      "points": 2500,
+      "translatedSafeExtendedDescription": "Other users created 25 programs based on one of yours",
+      "iconSrc": "https://cdn.kastatic.org/images/badges/earth/great-inspiration-40x40.png",
+      "hideContext": false,
+      "slug": "great-inspiration",
+      "name": "getforkedtwentyfivetimesbadge"
+    }],
+    "backgroundSrc": "https://cdn.kastatic.org/images/profile/backgrounds/bg-photon-2.jpg",
+    "noColorInVideos": false,
+    "hideVisual": false,
+    "childPageRoot": "/parent/child/douira/",
+    "isMidsignupPhantom": false,
+    "streakLastLength": 1,
+    "avatarName": "starky_ultimate_style",
+    "streakLength": 0,
+    "autocontinueOn": false,
+    "globalPermissions": [],
+    "streakLastExtended": "2017-04-23",
+    "profileRoot": "/profile/douira/",
+    "email": "",
+    "countVideosCompleted": 62,
+    "bio": "Hi, I code on KA and in Processing. Interested in procedural generation, programming artistically and other things! -  Twitter: https://twitter.com/douira100",
+    "backgroundName": "photon-2",
+    "isOrphan": false,
+    "isPublic": true,
+    "background": {
+      "translatedDisplayName": "Photon Two",
+      "imagePath": "/images/profile/backgrounds/bg-photon-2.jpg",
+      "displayName": "Photon Two",
+      "name": "photon-2",
+      "thumbSrc": "https://cdn.kastatic.org/images/profile/backgrounds/bg-photon-2-preview.png",
+      "translatedRequirements": ["Earn 100,000 energy points"],
+      "rewardType": "profile_background",
+      "thumbnailSrc": "https://cdn.kastatic.org/images/profile/backgrounds/bg-photon-2.jpg",
+      "imageSrc": "https://cdn.kastatic.org/images/profile/backgrounds/bg-photon-2.jpg",
+      "thumbnailPath": "",
+      "thumbPath": "/images/profile/backgrounds/bg-photon-2-preview.png"
+    },
+    "isPhantom": false,
+    "isDataCollectible": false,
+    "nickname": "douira",
+    "includesUserDataInfo": true,
+    "isActivityAccessible": false,
+    "affiliation_country_code": null,
+    "restrictedDomain": null,
+    "prefersReducedMotion": false,
+    "dateJoined": "2012-08-11T15:45:20Z",
+    "avatarSrc": "https://cdn.kastatic.org/images/avatars/svg/starky-ultimate.svg",
+    "userLocation": {
+      "city": "L\u00fcbeck",
+      "lastModified": "2017-11-10T14:32:17Z",
+      "googlePlacesId": "51cfc69b5aabad80ef792902e36863a8d041ac97",
+      "state": "SH",
+      "displayText": "L\u00fcbeck, Deutschland",
+      "country": "DE",
+      "postalCode": ""
+    },
+    "points": 482829,
+    "avatar": {
+      "translatedDisplayName": "Starky (Ultimate)",
+      "imagePath": "/images/avatars/svg/starky-ultimate.svg",
+      "displayName": "Starky (Ultimate)",
+      "name": "starky_ultimate_style",
+      "partType": "style",
+      "translatedRequirements": ["Earn 250,000 energy points"],
+      "forModel": "starky",
+      "rewardType": "avatar_reward",
+      "thumbnailSrc": "https://cdn.kastatic.org/images/avatars/svg/starky-ultimate.svg",
+      "imageSrc": "https://cdn.kastatic.org/images/avatars/svg/starky-ultimate.svg",
+      "thumbnailPath": ""
+    },
+    "isCoachingLoggedInUser": false,
+    "kaid": "kaid_1183476479201251928390727"
+  },
+  "discussion": {
+    "showProjectFeedback": true,
+    "loggedIn": false,
+    "isDeveloper": false,
+    "communityQuestionsTitle": "Computer programming",
+    "isScratchpad": true,
+    "isVideo": false,
+    "translatedCommunityQuestionsTitle": "Computer programming",
+    "focusId": "4555079742947328",
+    "isOwner": false,
+    "restrictPosting": false,
+    "which": "scratchpad-questions",
+    "focusKind": "scratchpad",
+    "communityQuestionsUrl": "/computing/computer-programming/d",
+    "canEdit": false,
+    "canRequestFeedback": false
+  },
+  "upVoted": false,
+  "originScratchpad": null,
+  "topic": {
+    "topicPageUrl": "/computing/computer-programming",
+    "relativeUrl": "/computing/computer-programming",
+    "userAuthoredContentTypesInfo": [{
+      "new": "New Program",
+      "guidelines": "Program Guidelines",
+      "type": "pjs"
+    }, {
+      "new": "New SQL Script",
+      "guidelines": "SQL Guidelines",
+      "type": "sql"
+    }, {
+      "new": "New Webpage",
+      "guidelines": "Webpage Guidelines",
+      "type": "webpage"
+    }],
+    "extendedSlug": "computing/computer-programming",
+    "currentRevisionKey": "26b34fe52966fedd9c6b2cb772e4691d676fc205",
+    "renderType": "Subject",
+    "curriculumKey": "",
+    "alternateSlugs": ["cs"],
+    "hasPeerReviewedProjects": true,
+    "id": "xffde7c31",
+    "hasUserAuthoredContentTypes": true,
+    "inKnowledgeMap": false,
+    "domainSlug": "computing",
+    "userAuthoredContentTypes": ["pjs", "sql", "webpage"],
+    "doNotPublish": false,
+    "backgroundImageUrl": "",
+    "title": "Computer programming",
+    "childData": [{
+      "kind": "Topic",
+      "id": "x05187c3c"
+    }, {
+      "kind": "Topic",
+      "id": "x7441c73b"
+    }, {
+      "kind": "Topic",
+      "id": "xcffdaa1f"
+    }, {
+      "kind": "Topic",
+      "id": "x89af0e82"
+    }, {
+      "kind": "Topic",
+      "id": "xc9115e5d"
+    }, {
+      "kind": "Topic",
+      "id": "xb254f8dc"
+    }, {
+      "kind": "Topic",
+      "id": "x0a7e5897"
+    }, {
+      "kind": "Topic",
+      "id": "x7d10e7ab"
+    }, {
+      "kind": "Topic",
+      "id": "xc7cc38f7"
+    }, {
+      "kind": "Topic",
+      "id": "xf409033d"
+    }, {
+      "kind": "Topic",
+      "id": "x5e3717e0"
+    }, {
+      "kind": "Topic",
+      "id": "xf9c6be8d"
+    }, {
+      "kind": "Topic",
+      "id": "x76ccd5a5"
+    }, {
+      "kind": "Topic",
+      "id": "x3dea311d"
+    }],
+    "webUrl": "",
+    "backgroundImageCaption": "",
+    "deleted": false,
+    "endorsement": null,
+    "iconSrc": "",
+    "contentKind": "Topic",
+    "standaloneTitle": "Computer programming",
+    "translatedStandaloneTitle": "Computer programming",
+    "brandingImageUrl": "",
+    "description": "Learn how to program drawings, animations, and games using JavaScript & ProcessingJS, or learn how to create webpages with HTML & CSS. You can share whatever you create, explore what others have created and learn from each other!",
+    "tags": [],
+    "deletedModTime": "2013-07-21T23:11:34Z",
+    "twitterUrl": "",
+    "translatedDescription": "Learn how to program drawings, animations, and games using JavaScript & ProcessingJS, or learn how to create webpages with HTML & CSS. You can share whatever you create, explore what others have created and learn from each other!",
+    "gplusUrl": "",
+    "hide": false,
+    "creationDate": "2018-06-21T21:08:13Z",
+    "nodeSlug": "computer-programming",
+    "kind": "Topic",
+    "listedLocales": ["fr", "bg", "pt", "sr", "bn", "de", "ko", "it", "da", "tr", "nb", "pl", "he"],
+    "contentId": "xffde7c31",
+    "slug": "computer-programming",
+    "logoImageUrl": "",
+    "kaUrl": "https://www.khanacademy.org/computing/computer-programming",
+    "sha": "26b34fe52966fedd9c6b2cb772e4691d676fc205",
+    "facebookUrl": "",
+    "curation": {
+      "blacklist": ["Topic:xf409033d", "Topic:x5e3717e0", "Topic:xf9c6be8d", "Topic:x76ccd5a5", "Topic:x3dea311d"],
+      "modules": [{
+        "kind": "ActionList",
+        "actions": [{
+          "url": "/computer-programming/new/pjs",
+          "text": "New JavaScript Program"
+        }, {
+          "url": "/computer-programming/new/webpage",
+          "text": "New webpage"
+        }, {
+          "url": "/computer-programming/new/sql",
+          "text": "New SQL Script"
+        }],
+        "title": "Create a new program"
+      }, {
+        "kind": "SubjectIntro",
+        "title": "What can you do with a career in computing?",
+        "link": "Video:x2c143ebd",
+        "description": "Meet a professional - everyone from mobile health app developers to product managers to physics programmers. Learn how they got into the industry, what they do for their job, what they do for fun, and what advice they have for you.",
+        "call_to_action": "Meet the professionals"
+      }, {
+        "kind": "ActionList",
+        "actions": [{
+          "url": "/computing/computer-programming/projectfeedback",
+          "text": "Help requests"
+        }, {
+          "url": "/computing/computer-programming/projectfeedback#projecteval",
+          "text": "Project evaluations"
+        }, {
+          "url": "/computing/computer-programming/d",
+          "text": "Community questions"
+        }],
+        "title": "Community"
+      }, {
+        "kind": "BrowseProjects"
+      }, {
+        "kind": "ActionList",
+        "actions": [{
+          "url": "/computing/computer-science",
+          "text": "Computer Science"
+        }, {
+          "url": "/computing/hour-of-code",
+          "text": "Hour of Code"
+        }, {
+          "url": "/partner-content/pixar",
+          "text": "Pixar in a Box"
+        }],
+        "title": "Learn More Computing"
+      }]
+    },
+    "translatedTitle": "Computer programming"
+  },
+  "flaggedByUser": false,
+  "downVoted": false,
+  "userScratchpad": {
+    "kind": "UserScratchpad",
+    "msWatched": 0,
+    "isProject": false,
+    "msDuration": null,
+    "challengeStatus": -1,
+    "lastMsWatched": 0,
+    "scratchpadKey": "ag5zfmtoYW4tYWNhZGVteXIXCxIKU2NyYXRjaHBhZBiAgIKwotqLCAw",
+    "fullyWatched": false,
+    "isComplete": false,
+    "isChallenge": false,
+    "difficulty": null,
+    "points": 0,
+    "stashedCode": "",
+    "lastUpdated": "2018-08-14T14:12:12Z",
+    "key": "ag5zfmtoYW4tYWNhZGVteXJ3CxIOVXNlclNjcmF0Y2hwYWQiY2FnNXpmbXRvWVc0dFlXTmhaR1Z0ZVhJckN4SUlWWE5sY2tSaGRHRWlIV3RoYVdSZk56VXpOemt3TnpZeU1qY3hOalk0TXpNek9UY3pORFV6REE6NDU1NTA3OTc0Mjk0NzMyOAw",
+    "userKey": "ag5zfmtoYW4tYWNhZGVteXIrCxIIVXNlckRhdGEiHWthaWRfNzUzNzkwNzYyMjcxNjY4MzMzOTczNDUzDA",
+    "id": "ag5zfmtoYW4tYWNhZGVteXIrCxIIVXNlckRhdGEiHWthaWRfNzUzNzkwNzYyMjcxNjY4MzMzOTczNDUzDA:4555079742947328",
+    "viewed": true
+  }
+}
