@@ -23,4 +23,11 @@ body {
 .project-item h3.project-title {
   height: 80px;
   width: 200px;
+  margin-top: 8px;
+}
+
+#page-title {
+  margin-left: 15px;
+  margin-top: 30px;
+  margin-bottom: 5px;
 }

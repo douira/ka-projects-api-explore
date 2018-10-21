@@ -49,6 +49,10 @@ const getListChunk = (cursor, page = 0, prevListItems = []) => new Promise((reso
         //return filled item to be added to display
         return item
       }))
+
+      //set display title
+      $("#project-amount").text(prevListItems.length)
+      $("#author-name").text(prevListItems[0].authorNickname || "?")
     }
 
     //check if there are still remaining items to be fetched
