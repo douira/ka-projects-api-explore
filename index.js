@@ -6,7 +6,7 @@ const getConfig = {
   concurrentItemGet: 5,
   recurseList: true, //set to false to only check one page of items
   display: true, //set to true to display projects as images and titles
-  getSingleInfo: false //set to true to request all scratchpad infos individually
+  getSingleInfo: true //set to true to request all scratchpad infos individually
 }
 
 //project item template, filled if display enabled
