@@ -18,10 +18,10 @@
   "homepage": "https://github.com/douira/ka-projects-api-explore#readme",
   "dependencies": {
     "es6-promise-pool": "^2.5.0",
-    "jquery": "^3.3.1"
+    "jquery": "^3.4.1"
   },
   "devDependencies": {
-    "eslint": "^5.7.0",
+    "eslint": "^6.1.0",
     "eslint-config-douira": "github:douira/eslint-config-douira"
   }
 }
